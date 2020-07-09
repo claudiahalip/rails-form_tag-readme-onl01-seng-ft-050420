@@ -1,5 +1,7 @@
 <h3>Post Form</h3>
 
+<%= form_tag posts_path do %>
+
 <form action="<%= posts_path %>" method="POST">
   <label>Post title:</label><br>
   <input type="text" id="post_title" name="post[title]"><br>
